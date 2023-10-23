@@ -1,0 +1,53 @@
+site_name: 'Capability Maturity Model for Analytics'
+site_description: 'How to measure and improve your organizations analytics capabilties. All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+site_url: 'https://dmccreary.github.io/cmm-for-analytics'
+repo_url: 'https://github.com/dmccreary/cmm-for-analytics'
+
+nav:
+  - Home: index.md
+  - Outline: outline.md
+  - Contact: contact.md
+  
+# Microsite Standards from here down
+edit_uri: 'blob/master/docs'
+theme:
+  name: material
+  custom_dir: custom-theme
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  extra_css:
+    - styles/custom.css
+  logo: img/clock-icon.png
+  favicon: img/clock-icon.png
+  palette:
+    primary: '#642580'
+    accent: '#41BAC1'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # this adds the prev and next icons in the footer
+    - navigation.footer
+plugins:
+  - search
+#  - social
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+extra:
+  analytics:
+    provider: google
+    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
+    property: G-EKTEBLZ2KP
