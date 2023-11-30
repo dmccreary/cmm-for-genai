@@ -1,2 +1,2 @@
 # Layers Animation
-[View the Layers](#){ .md-button .md-button--primary }
+[View the Layers](./layers.html){ .md-button .md-button--primary }
