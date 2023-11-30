@@ -1,12 +1,14 @@
-site_name: 'Capability Maturity Model for Analytics'
-site_description: 'How to measure and improve your organizations analytics capabilties. All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_name: 'Capability Maturity Model for Generative AI'
+site_description: 'How to measure and improve your organizations generative AI capabilities. 
+All content licensed Creative Commons ShareAlike Attribution Noncommercial'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
-site_url: 'https://dmccreary.github.io/cmm-for-analytics'
-repo_url: 'https://github.com/dmccreary/cmm-for-analytics'
+site_url: 'https://dmccreary.github.io/cmm-for-genai'
+repo_url: 'https://github.com/dmccreary/cmm-for-genai'
 
 nav:
   - Home: index.md
+  - CMM Levels: cmm-levels.md
   - Outline: outline.md
   - Contact: contact.md
   
