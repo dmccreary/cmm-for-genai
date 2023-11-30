@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dmccreary.github.io/cmm-for-genai/button-test/</loc>
+         <lastmod>2023-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/cmm-levels/</loc>
          <lastmod>2023-11-30</lastmod>
          <changefreq>daily</changefreq>
@@ -17,6 +22,11 @@
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/outline/</loc>
+         <lastmod>2023-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/cmm-for-genai/layers/</loc>
          <lastmod>2023-11-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
