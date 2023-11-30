@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://dmccreary.github.io/cmm-for-analytics/</loc>
-         <lastmod>2023-10-23</lastmod>
+         <loc>https://dmccreary.github.io/cmm-for-genai/</loc>
+         <lastmod>2023-11-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/cmm-for-analytics/contact/</loc>
-         <lastmod>2023-10-23</lastmod>
+         <loc>https://dmccreary.github.io/cmm-for-genai/cmm-levels/</loc>
+         <lastmod>2023-11-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/cmm-for-analytics/outline/</loc>
-         <lastmod>2023-10-23</lastmod>
+         <loc>https://dmccreary.github.io/cmm-for-genai/contact/</loc>
+         <lastmod>2023-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/cmm-for-genai/outline/</loc>
+         <lastmod>2023-11-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
