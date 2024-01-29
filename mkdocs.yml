@@ -8,9 +8,12 @@ repo_url: 'https://github.com/dmccreary/cmm-for-genai'
 
 nav:
   - Home: index.md
-  - CMM Levels: cmm-levels.md
-  - Layers: layers/index.md
+  - About CMM Levels: cmm-levels.md
+  - GenAI Levels: layers/index.md
+  - Using GenAI for Strategy: using-genai.md
   - Outline: outline.md
+  - Quotes: quotes.md
+  - References: references.md
   - Contact: contact.md
   
 # Microsite Standards from here down
