@@ -3,7 +3,10 @@
 <head>
     <title>Generative AI Capability Maturity Model Assessment</title>
     <style>
-        body { font-family: Arial, sans-serif; }
+        body { font-family: Arial, sans-serif; 
+            margin-left: 30px;
+            background-color: aliceblue;
+        }
         .question { margin-bottom: 15px; }
         .submit-button { margin-top: 20px; }
     </style>
@@ -11,16 +14,21 @@
 <body>
 
 <h2>Generative AI Capability Maturity Model (CMM) Assessment</h2>
+<p>Survey version 2.1</p>
+
+<p>This survey helps you determine where an organization is 
+    with respect to Generative AI on a five-level Capability Maturity Model.
+</p>
 
 <form id="cmmForm">
     <div class="question">
-        <label for="orgName">Organization Name:</label><br>
-        <input type="text" id="orgName" name="orgName" required><br>
+        <label for="orgName">Organization Name: (optional)</label><br>
+        <input type="text" id="orgName" name="orgName"><br>
     </div>
 
     <div class="question">
-        <label for="industry">Industry:</label><br>
-        <input type="text" id="industry" name="industry" required><br>
+        <label for="industry">Industry: (optional)</label><br>
+        <input type="text" id="industry" name="industry"><br>
     </div>
 
     <div class="question">
@@ -38,7 +46,7 @@
 <!-- Question 1: Awareness and Understanding -->
 <div class="question">
     <label for="awareness">Does your organization have a basic understanding of what Generative AI is and its potential applications?</label><br>
-    <select id="awareness" name="awareness">
+    <select id="awareness" name="question1">
         <option value="1">No Understanding</option>
         <option value="2">Limited Understanding</option>
         <option value="3">General Understanding</option>
@@ -50,7 +58,7 @@
 <!-- Question 2: Use of Generative AI -->
 <div class="question">
     <label for="useOfGenAI">How is Generative AI currently being used in your organization?</label><br>
-    <select id="useOfGenAI" name="useOfGenAI">
+    <select id="useOfGenAI" name="question2">
         <option value="1">Not Used</option>
         <option value="2">Experimentally Used</option>
         <option value="3">Used in Specific Areas</option>
@@ -62,7 +70,7 @@
 <!-- Question 3: Policy and Governance -->
 <div class="question">
     <label for="policyGovernance">Does your organization have policies or governance structures in place for the use of Generative AI?</label><br>
-    <select id="policyGovernance" name="policyGovernance">
+    <select id="policyGovernance" name="question3">
         <option value="1">None</option>
         <option value="2">Informal Guidelines</option>
         <option value="3">Formal Policies for Specific Cases</option>
@@ -74,7 +82,7 @@
 <!-- Question 4: Training and Expertise -->
 <div class="question">
     <label for="trainingExpertise">What level of training or expertise in Generative AI is available within your organization?</label><br>
-    <select id="trainingExpertise" name="trainingExpertise">
+    <select id="trainingExpertise" name="question4">
         <option value="1">None</option>
         <option value="2">Basic Awareness</option>
         <option value="3">Some Trained Individuals</option>
@@ -86,7 +94,7 @@
 <!-- Question 5: Data Management -->
 <div class="question">
     <label for="dataManagement">How does your organization manage data for Generative AI applications?</label><br>
-    <select id="dataManagement" name="dataManagement">
+    <select id="dataManagement" name="question5">
         <option value="1">Ad-hoc/Unstructured</option>
         <option value="2">Basic Data Management</option>
         <option value="3">Systematic Data Management</option>
@@ -98,7 +106,7 @@
 <!-- Question 6: Integration with Business Processes -->
 <div class="question">
     <label for="integrationBusiness">To what extent is Generative AI integrated into your business processes?</label><br>
-    <select id="integrationBusiness" name="integrationBusiness">
+    <select id="integrationBusiness" name="question6">
         <option value="1">Not Integrated</option>
         <option value="2">Partially Integrated in Some Processes</option>
         <option value="3">Integrated in Several Key Processes</option>
@@ -110,7 +118,7 @@
 <!-- Question 7: Innovation and Development -->
 <div class="question">
     <label for="innovationDevelopment">Is your organization involved in developing new applications or innovations using Generative AI?</label><br>
-    <select id="innovationDevelopment" name="innovationDevelopment">
+    <select id="innovationDevelopment" name="question7">
         <option value="1">No Involvement</option>
         <option value="2">Limited Experimentation</option>
         <option value="3">Regular Development Projects</option>
@@ -122,7 +130,7 @@
 <!-- Question 8: Performance Measurement -->
 <div class="question">
     <label for="performanceMeasurement">How does your organization measure the performance and impact of Generative AI technologies?</label><br>
-    <select id="performanceMeasurement" name="performanceMeasurement">
+    <select id="performanceMeasurement" name="question8">
         <option value="1">Not Measured</option>
         <option value="2">Informally Assessed</option>
         <option value="3">Regularly Measured for Specific Projects</option>
@@ -134,7 +142,7 @@
 <!-- Question 9: Risk Management -->
 <div class="question">
     <label for="riskManagement">How does your organization manage risks associated with Generative AI?</label><br>
-    <select id="riskManagement" name="riskManagement">
+    <select id="riskManagement" name="question9">
         <option value="1">No Risk Management</option>
         <option value="2">Informal Risk Awareness</option>
         <option value="3">Basic Risk Management Processes</option>
@@ -146,7 +154,7 @@
 <!-- Question 10: Future Orientation -->
 <div class="question">
     <label for="futureOrientation">How is your organization preparing for future advancements in Generative AI?</label><br>
-    <select id="futureOrientation" name="futureOrientation">
+    <select id="futureOrientation" name="question10">
         <option value="1">Not Preparing</option>
         <option value="2">Limited Awareness of Future Trends</option>
         <option value="3">Proactive Monitoring</option>
@@ -163,17 +171,29 @@
 <div id="result"></div>
 
 <script>
-    function calculateCMMLevel() {
-        var form = document.getElementById("cmmForm");
-        var totalScore = 0;
+function calculateCMMLevel() {
+    var form = document.getElementById("cmmForm");
+    var totalScore = 0;
 
-        // Calculation logic for CMM level
-        // Example: totalScore += parseInt(form['question1'].value);
-
-        var cmmLevel = "Level " + Math.ceil(totalScore / 20); // Adjust this logic based on your scoring
-
-        document.getElementById("result").innerHTML = "Estimated CMM Level: " + cmmLevel;
+    // Calculate score for each question and add to total
+    var scores = [];
+    for (var i = 1; i <= 10; i++) {
+        var questionScore = parseInt(form['question' + i].value);
+        scores.push(questionScore);
+        totalScore += questionScore;
     }
+
+    // Print out scores for each question
+    scores.forEach(function(score, index) {
+        console.log("Score for Question " + (index + 1) + ": " + score);
+    });
+
+    // Determine CMM Level
+    var cmmLevel = "Level " + Math.ceil(totalScore / 10); // Adjust this logic based on your scoring
+
+    document.getElementById("result").innerHTML = "Estimated CMM Level: " + cmmLevel;
+}
+
 </script>
 
 </body>
