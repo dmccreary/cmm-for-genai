@@ -3,7 +3,7 @@
 ![Assessment Form Screen Image](assessment.png)
 
 
-[Sample CMM Survey Form](form-radio.html)
+[Run the Sample CMM Survey Form](form-radio.html){ .md-button .md-button--primary }
 
 In this section, we will learn how to use generative AI to create a web form you can use to do a simple placement on a 1-5 level of a capability maturity model (CMM).  This
 is done in a few steps.
@@ -19,7 +19,11 @@ is done in a few steps.
 ### Getting Started
 
 ```linenums="0"
-I am creating a process to help organizations understand where they stand on a five-level capability maturity model (CMM) for their use of generative AI (GenAI).  Can you please generate a 10-question assessment to help an organization determine where they are on the a five-level CMM model?
+I am creating a process to help organizations understand
+where they stand on a five-level capability maturity model (CMM)
+for their use of generative AI (GenAI).
+Can you please generate a 10-question assessment to help
+an organization determine where they are on the a five-level CMM model?
 ```
 
 ### Sample Response
