@@ -2,77 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/button-test/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/cmm-levels/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/contact/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/events/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/outline/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/quotes/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/references/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/slides/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/using-genai/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/cmm-for-genai/concepts/</loc>
+         <lastmod>2024-02-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/cmm-for-genai/concepts/world-models/</loc>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/layers/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/microstrategies/genai-l2-to-l3/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/sims/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/sims/assessment/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/cmm-for-genai/sims/vulnerability/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
