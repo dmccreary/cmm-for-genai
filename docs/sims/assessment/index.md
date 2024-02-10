@@ -1,6 +1,18 @@
 # Generative AI CMM Assessment
 
-In this section, we will learn how to use generative AI to create a web form you can use to do a simple placement on a 1-5 level of a capability maturity model (CMM).
+![Assessment Form Screen Image](assessment.png)
+
+
+[Sample CMM Survey Form](form-radio.html)
+
+In this section, we will learn how to use generative AI to create a web form you can use to do a simple placement on a 1-5 level of a capability maturity model (CMM).  This
+is done in a few steps.
+
+1. Get a list of 10 questions relevant to placement on the Generative AI CMM levels
+2. Get multiple-choice results for each question
+3. Generate an HTML form that has radio buttons for each question and the possible five answers
+4. Generate some JavaScript to create a total score
+5. Assemble the results in a HTML form with a "Calculate my GenAI CMM Level" at the end of the form
 
 ## Sample Prompts
 
@@ -87,6 +99,10 @@ the form.
 
 ## Sample Result
 
-[Single Radio](form-radio.html)
+[Sample Single Radio](form-radio.html)
 
-[Survey](genai-cmm-survey.html)
+[Survey Version 1](genai-cmm-survey.html)
+
+## References
+
+[Sample ChatGPT Dialog](https://chat.openai.com/share/395c8222-9e97-4a01-b5f4-91f461aa6b3f)
