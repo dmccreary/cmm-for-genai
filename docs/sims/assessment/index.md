@@ -3,7 +3,7 @@
 ![Assessment Form Screen Image](assessment.png)
 
 
-[Run the Sample CMM Survey Form](form-radio.html){ .md-button .md-button--primary }
+[Run the Sample GenAI CMM Survey Form](form-radio.html){ .md-button .md-button--primary }
 
 In this section, we will learn how to use generative AI to create a web form you can use to do a simple placement on a 1-5 level of a capability maturity model (CMM).  This
 is done in a few steps.
