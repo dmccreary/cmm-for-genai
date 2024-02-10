@@ -13,6 +13,9 @@ nav:
   - Using GenAI for Strategy: using-genai.md
   - Outline: outline.md
   - Quotes: quotes.md
+  - Concepts:
+    - Introduction: concepts/index.md
+    - World Models: concepts/world-models.md
   - Simulations:
     - Introduction: sims/index.md
     - Assessment: sims/assessment/index.md
