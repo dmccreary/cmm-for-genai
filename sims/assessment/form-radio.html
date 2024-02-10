@@ -238,8 +238,14 @@
         // console.log("Score for Question " + i + ": " + questionScore);
     }
 
-    var cmmLevel = "Level " + totalScore / 10; // Adjust the calculation as per your scoring rule
-    document.getElementById("result").innerHTML = "Estimated CMM Level: " + cmmLevel;
+    // Adjust the calculation as per your scoring rule
+    // TODO - add weights for different questions
+    var cmmLevel = "Level " + Math.ceil(totalScore / 10);
+    var resultElement = document.getElementById("result");
+    resultElement.innerHTML = "Estimated CMM Level: " + cmmLevel;
+
+    // Scroll to the result element
+    resultElement.scrollIntoView({behavior: "smooth"});
 }
 
 </script>
