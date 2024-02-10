@@ -87,4 +87,6 @@ the form.
 
 ## Sample Result
 
+[Single Radio](form-radio.html)
+
 [Survey](genai-cmm-survey.html)
