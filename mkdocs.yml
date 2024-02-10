@@ -16,7 +16,7 @@ nav:
   - Concepts:
     - Introduction: concepts/index.md
     - World Models: concepts/world-models.md
-  - Simulations:
+  - Forms and Simulations:
     - Introduction: sims/index.md
     - Assessment: sims/assessment/index.md
     - Vulnerability: sims/vulnerability/index.md
