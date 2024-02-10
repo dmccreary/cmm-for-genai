@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generative AI Capability Maturity Model Assessment</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form {background-color: aliceblue; margin: 10px; padding: 10px}
+        .question { margin-bottom: 15px; }
+        .submit-button { margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<h2>Generative AI Capability Maturity Model (CMM) Assessment</h2>
+
+<form id="cmmForm">
+
+    <!-- Sample for first question -->
+    <div class="question">
+        <p>Q1: Does your organization have a basic understanding of what Generative AI is and its potential applications?</p>
+        <input type="radio" id="awareness1" name="question1" value="1">
+        <label for="awareness1">No Understanding</label><br>
+
+        <input type="radio" id="awareness2" name="question1" value="2">
+        <label for="awareness2">Limited Understanding</label><br>
+
+        <input type="radio" id="awareness3" name="question1" value="3">
+        <label for="awareness3">General Understanding</label><br>
+
+        <input type="radio" id="awareness4" name="question1" value="4">
+        <label for="awareness4">Good Understanding</label><br>
+
+        <input type="radio" id="awareness5" name="question1" value="5">
+        <label for="awareness5">Expert Understanding</label><br>
+    </div>
+
+    <!-- Question 2: Use of Generative AI -->
+<div class="question">
+    <p>Q2: How is Generative AI currently being used in your organization?</p>
+    <input type="radio" id="use1" name="question2" value="1">
+    <label for="use1">Not Used</label><br>
+
+    <input type="radio" id="use2" name="question2" value="2">
+    <label for="use2">Experimentally Used</label><br>
+
+    <input type="radio" id="use3" name="question2" value="3">
+    <label for="use3">Used in Specific Areas</label><br>
+
+    <input type="radio" id="use4" name="question2" value="4">
+    <label for="use4">Widely Used</label><br>
+
+    <input type="radio" id="use5" name="question2" value="5">
+    <label for="use5">Fully Integrated in Multiple Areas</label><br>
+</div>
+
+<!-- Question 3: Policy and Governance -->
+<div class="question">
+    <p>Q3: Does your organization have policies or governance structures in place for the use of Generative AI?</p>
+    <input type="radio" id="policy1" name="question3" value="1">
+    <label for="policy1">None</label><br>
+
+    <input type="radio" id="policy2" name="question3" value="2">
+    <label for="policy2">Informal Guidelines</label><br>
+
+    <input type="radio" id="policy3" name="question3" value="3">
+    <label for="policy3">Formal Policies for Specific Cases</label><br>
+
+    <input type="radio" id="policy4" name="question3" value="4">
+    <label for="policy4">Comprehensive Policies</label><br>
+
+    <input type="radio" id="policy5" name="question3" value="5">
+    <label for="policy5">Dynamic Policies Reviewed Regularly</label><br>
+</div>
+
+<!-- Question 4: Training and Expertise -->
+<div class="question">
+    <p>Q4: What level of training or expertise in Generative AI is available within your organization?</p>
+    <input type="radio" id="training1" name="question4" value="1">
+    <label for="training1">None</label><br>
+
+    <input type="radio" id="training2" name="question4" value="2">
+    <label for="training2">Basic Awareness</label><br>
+
+    <input type="radio" id="training3" name="question4" value="3">
+    <label for="training3">Some Trained Individuals</label><br>
+
+    <input type="radio" id="training4" name="question4" value="4">
+    <label for="training4">Dedicated Team with Expertise</label><br>
+
+    <input type="radio" id="training5" name="question4" value="5">
+    <label for="training5">Organization-Wide Expertise</label><br>
+</div>
+
+<!-- Question 5: Data Management -->
+<div class="question">
+    <p>Q5: How does your organization manage data for Generative AI applications?</p>
+    <input type="radio" id="data1" name="question5" value="1">
+    <label for="data1">Ad-hoc/Unstructured</label><br>
+
+    <input type="radio" id="data2" name="question5" value="2">
+    <label for="data2">Basic Data Management</label><br>
+
+    <input type="radio" id="data3" name="question5" value="3">
+    <label for="data3">Systematic Data Management</label><br>
+
+    <input type="radio" id="data4" name="question5" value="4">
+    <label for="data4">Advanced Data Analytics</label><br>
+
+    <input type="radio" id="data5" name="question5" value="5">
+    <label for="data5">Leading-Edge Data Strategies</label><br>
+</div>
+<!-- Question 6: Integration with Business Processes -->
+<div class="question">
+    <p>Q6: To what extent is Generative AI integrated into your business processes?</p>
+    <input type="radio" id="integration1" name="question6" value="1">
+    <label for="integration1">Not Integrated</label><br>
+
+    <input type="radio" id="integration2" name="question6" value="2">
+    <label for="integration2">Partially Integrated in Some Processes</label><br>
+
+    <input type="radio" id="integration3" name="question6" value="3">
+    <label for="integration3">Integrated in Several Key Processes</label><br>
+
+    <input type="radio" id="integration4" name="question6" value="4">
+    <label for="integration4">Highly Integrated</label><br>
+
+    <input type="radio" id="integration5" name="question6" value="5">
+    <label for="integration5">Core to Most Business Processes</label><br>
+</div>
+
+<!-- Question 7: Innovation and Development -->
+<div class="question">
+    <p>Q7: Is your organization involved in developing new applications or innovations using Generative AI?</p>
+    <input type="radio" id="innovation1" name="question7" value="1">
+    <label for="innovation1">No Involvement</label><br>
+
+    <input type="radio" id="innovation2" name="question7" value="2">
+    <label for="innovation2">Limited Experimentation</label><br>
+
+    <input type="radio" id="innovation3" name="question7" value="3">
+    <label for="innovation3">Regular Development Projects</label><br>
+
+    <input type="radio" id="innovation4" name="question7" value="4">
+    <label for="innovation4">Strategic Development Initiatives</label><br>
+
+    <input type="radio" id="innovation5" name="question7" value="5">
+    <label for="innovation5">Industry-Leading Innovations</label><br>
+</div>
+
+<!-- Question 8: Performance Measurement -->
+<div class="question">
+    <p>Q8: How does your organization measure the performance and impact of Generative AI technologies?</p>
+    <input type="radio" id="performance1" name="question8" value="1">
+    <label for="performance1">Not Measured</label><br>
+
+    <input type="radio" id="performance2" name="question8" value="2">
+    <label for="performance2">Informally Assessed</label><br>
+
+    <input type="radio" id="performance3" name="question8" value="3">
+    <label for="performance3">Regularly Measured for Specific Projects</label><br>
+
+    <input type="radio" id="performance4" name="question8" value="4">
+    <label for="performance4">Comprehensive Measurement Systems</label><br>
+
+    <input type="radio" id="performance5" name="question8" value="5">
+    <label for="performance5">Advanced Predictive Analytics and KPIs</label><br>
+</div>
+
+<!-- Question 9: Risk Management -->
+<div class="question">
+    <p>Q9: How does your organization manage risks associated with Generative AI?</p>
+    <input type="radio" id="risk1" name="question9" value="1">
+    <label for="risk1">No Risk Management</label><br>
+
+    <input type="radio" id="risk2" name="question9" value="2">
+    <label for="risk2">Informal Risk Awareness</label><br>
+
+    <input type="radio" id="risk3" name="question9" value="3">
+    <label for="risk3">Basic Risk Management Processes</label><br>
+
+    <input type="radio" id="risk4" name="question9" value="4">
+    <label for="risk4">Advanced Risk Management Strategies</label><br>
+
+    <input type="radio" id="risk5" name="question9" value="5">
+    <label for="risk5">Leading-Edge Risk Management and Mitigation</label><br>
+</div>
+
+<!-- Question 10: Future Orientation -->
+<div class="question">
+    <p>Q10: How is your organization preparing for future advancements in Generative AI?</p>
+    <input type="radio" id="future1" name="question10" value="1">
+    <label for="future1">Not Preparing</label><br>
+
+    <input type="radio" id="future2" name="question10" value="2">
+    <label for="future2">Limited Awareness of Future Trends</label><br>
+
+    <input type="radio" id="future3" name="question10" value="3">
+    <label for="future3">Proactive Monitoring</label><br>
+
+    <input type="radio" id="future4" name="question10" value="4">
+    <label for="future4">Strategic Planning for Future Trends</label><br>
+
+    <input type="radio" id="future5" name="question10" value="5">
+    <label for="future5">Leading the Development of Future Trends</label><br>
+</div>
+
+
+    <div class="submit-button">
+        <button type="button" onclick="calculateCMMLevel()">Calculate</button>
+    </div>
+</form>
+
+<div id="result"></div>
+
+<script>
+    function calculateCMMLevel() {
+    var form = document.getElementById("cmmForm");
+    var totalScore = 0;
+
+    for (var i = 1; i <= 10; i++) {
+        var questionScore = 0;
+        var radios = document.getElementsByName('question' + i);
+
+        for (var j = 0; j < radios.length; j++) {
+            if (radios[j].checked) {
+                questionScore = parseInt(radios[j].value, 10); // Parse the value as an integer
+                break;
+            }
+        }
+        
+        // Check if a radio button was selected for each question
+        if (questionScore === 0) {
+            alert("Please select an option for question " + i);
+            return; // Exit the function if a question is unanswered
+        }
+
+        totalScore += questionScore;
+        // console.log("Score for Question " + i + ": " + questionScore);
+    }
+
+    var cmmLevel = "Level " + totalScore / 10; // Adjust the calculation as per your scoring rule
+    document.getElementById("result").innerHTML = "Estimated CMM Level: " + cmmLevel;
+}
+
+</script>
+
+</body>
+</html>
