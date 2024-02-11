@@ -1,8 +1,11 @@
 # CMM Generative AL Levels
 
+![](img/human-five-stage-model-labels.png)
+
 To help organizations adopt generative AI technologies effectively and mature their capabilities, 
 a structured approach aligning with a capability-maturity model can be highly beneficial. 
-This model can be envisioned in five layers, each representing a progressive stage in the organization's journey toward advanced generative AI capabilities.
+This model can be envisioned in five layers, each representing a progressive stage in the organization's journey toward advanced generative AI capabilities.  We begin with a classical single-dimensional progression.  We then customize
+these layers to include measurable AI stages and describe finer-grain lanes with these levels using the MITRE AI maturity model.
 
 ## Layer 1: Awareness and Education
 
@@ -19,7 +22,7 @@ This model can be envisioned in five layers, each representing a progressive sta
 ## Layer 3: Integration and Application
 
    - **Objective:** Integrate generative AI into business processes and workflows.
-   - **Actions:** Develop strategies for integration, focusing on areas with the highest potential impact. Facilitate the adoption of best practices in AI ethics and data management. Ensure robust IT infrastructure support.
+   - **Actions:** Develop strategies for integration, focusing on areas with the highest potential impact. Facilitate the adoption of best practices in AI ethics and data management. Ensure robust IT infrastructure support.  Develop an integrated knowledge graph.
    - **Outcome:** Generative AI becomes part of the operational workflow, contributing to efficiency and innovation.
 
 ## Layer 4: Optimization and Enhancement
